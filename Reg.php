@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
         $result = $conn->query($sql);
 
         if ($result === TRUE) {
-            header('Location: index.php');
+            header('Location: login.php');
             exit();
         } else {
             echo "Error:" . $sql . "<br>" . $conn->error;
@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-image: url("img/ed.jpg");
+            background-image: url("img/s1.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }

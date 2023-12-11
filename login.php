@@ -10,7 +10,7 @@ include "config.php"?>
 
     <style>
         body {
-            background-image: url("img/ed4.jpg");
+            background-image: url("img/s3.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -31,7 +31,7 @@ include "config.php"?>
                 </div>
                 <div class="card-body">
                     
-                    <form action="index.php" method="post">
+                    <form action="password.php" method="post">
                         <div class="form-group">
                             <label for="username">Username:</label>
                             <input type="text" class="form-control" id="username" name="username" required>

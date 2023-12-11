@@ -14,7 +14,9 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-image: url("img/s4.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .container {
@@ -42,7 +44,7 @@ $result = $conn->query($sql);
 <body>
 
     <div class="container">
-        <h2>Student Records</h2>
+        <h1 class="text-white">Student Records</h1>
 
         <a class="btn btn-success" href="Reg.php" role="button">Create New Record</a>
 

@@ -46,12 +46,14 @@ if (isset($_GET['id'])) {
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
             <style>
                 body {
-                    background-color: #f8f9fa;
+                    background-image: url("img/s2.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
                 }
 
                 form {
                     max-width: 600px;
-                    margin: 50px auto;
+                    margin: 80px auto;
                     background-color: #fff;
                     padding: 30px;
                     border-radius: 10px;
@@ -79,7 +81,7 @@ if (isset($_GET['id'])) {
                     margin-bottom: 20px;
                 }
 
-                input[type="text"]{
+                input[type="text"] {
                     width: 100%;
                     padding: 12px;
                     margin-bottom: 20px;
